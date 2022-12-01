@@ -46,6 +46,10 @@ header a {
 }
 
 .headline {
+  background-image: url(header-shapes.png);
+  background-repeat: no-repeat;
+  background-position-y: 92px;
+  background-size: contain;
   display: flex;
   position: absolute;
   flex-direction: column;
@@ -97,15 +101,22 @@ header a {
   margin-top: 530px;
   margin-left: 23px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
   position: absolute;
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.headline-connect a {
+  text-decoration: none;
+  color: #7f8cff;
+}
+
+.headline-connect a:hover {
+  color: #1e31dd;
 }
 
 .headline img {
