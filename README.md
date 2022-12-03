@@ -33,13 +33,6 @@
 
 In this project, I have set up my personal portfolio site for mobile devices.
 
-- Added a gitignore file
-- Added node_modules into the gitignore file
-- Set up a [linter for HTML and CSS](https://github.com/microverseinc/linters-config)
-- Added .html file 
-- Added .css file
-- Added descriptive README file.
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -106,8 +99,6 @@ To run the project, execute the following command:
 
 ### 🔮 Future Features <a name="future-features"></a>
 
-- A Project section showcasing my recent works
-- An About me section
 - A Contact me section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
