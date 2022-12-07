@@ -285,7 +285,7 @@ a:hover {
 .about-language .language img {
   height: 48px;
   width: 48px;
-  padding-left: 12px;
+  margin-left: 24px;
 }
 
 .about-language .fa-solid:hover {

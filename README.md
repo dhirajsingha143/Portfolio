@@ -4,9 +4,6 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Portfolio Setup</b></h3>
 
 </div>
@@ -21,6 +18,7 @@
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
   - [Usage](#usage)
+  - [Preview](#preview)
 - [👥 Authors](#authors)
 - [🔮 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -83,6 +81,15 @@ To run the project, execute the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- PREVIEW -->
+
+### Preview
+
+<img src="images/Portfolio.png" alt="logo" width="140"  height="auto" />
+<br/>
+
+- [Visit here](https://638cbd730f57c3317ab0a615--famous-frangipane-1fe83c.netlify.app/)
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -93,13 +100,18 @@ To run the project, execute the following command:
 - Twitter: [@twitterhandle](https://twitter.com/DhirajS89134)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dhiraj-singha-b6871717a/)
 
+👤 **Miles Mosweu**
+- GitHub: [@githubhandle](https://github.com/Timbar09)
+- Twitter: [@twitterhandle](https://twitter.com/Milez09)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/miles-mosweu09/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ### 🔮 Future Features <a name="future-features"></a>
 
-- A Contact me section
+- Desktop version of Portfolio
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
