@@ -57,6 +57,14 @@ a:hover {
   cursor: pointer;
 }
 
+.about-language .fa-solid {
+  color: #acb7c3;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-left: 260px;
+  position: absolute;
+}
+
 .nav .fa-solid:hover {
   color: #1e31dd;
   transform: scale(1.5) rotate(45deg);
@@ -110,6 +118,15 @@ a:hover {
   list-style: none;
 }
 
+.about-language li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
 .social li:hover {
   transform: rotate(45deg);
 }
@@ -157,26 +174,9 @@ a:hover {
   color: #7a869a;
 }
 
-.about-language li {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: black;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
 .card .info li:first-child {
   font-weight: 600;
   color: #344563;
-}
-
-.about-language .fa-solid {
-  color: #acb7c3;
-  font-size: 12px;
-  margin-top: -20px;
-  margin-left: 260px;
-  position: absolute;
 }
 
 .card .info .fa-solid {
@@ -232,15 +232,44 @@ a:hover {
   background-color: white;
   height: 50px;
   width: 110px;
-  transition: background-color 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out,
+  transition:
+    background-color 200ms ease-in-out,
+    border 200ms ease-in-out,
+    color 200ms ease-in-out,
     box-shadow 200ms ease-in-out;
 }
 
+.about .btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  width: 150px;
+  height: 48px;
+  border: 1px solid #396df2;
+  color: #396df2;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.contact_form-control .btn {
+  margin-top: 22px;
+  padding: 15px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 17px;
+  color: #6070ff;
+  letter-spacing: 0.03em;
+  border: 0;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out, color 200ms ease-in-out;
+}
+
 .card .btn:hover {
-  color: #ffffff;
+  color: #fff;
   border: 1px solid #6070ff;
   background-color: #6070ff;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .card .btn:active {
@@ -257,18 +286,6 @@ a:hover {
   background-color: white;
   padding-top: 114px;
   padding-bottom: 114px;
-}
-
-.about .btn {
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  width: 150px;
-  height: 48px;
-  border: 1px solid #396df2;
-  color: #396df2;
-  border-radius: 8px;
-  background-color: white;
 }
 
 .about .btn:hover {
@@ -305,12 +322,12 @@ a:hover {
 }
 
 .contact {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .contact .container {
   padding-top: 103px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   background-color: #6070ff;
   background-image: url('images/contact-form-shapes-mobile.svg');
@@ -365,26 +382,12 @@ a:hover {
   max-height: 170px;
 }
 
-.contact_form-control .btn {
-  margin-top: 22px;
-  padding: 15px;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 17px;
-  color: #6070ff;
-  letter-spacing: 0.03em;
-  border: 0;
-  border-radius: 8px;
-  background-color: #ffffff;
-  transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out, color 200ms ease-in-out;
-}
-
 .contact_form-control .btn:hover {
   opacity: 0.8;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .contact_form-control .btn:active {
   background-color: #2230d2;
-  color: #ffffff;
+  color: #fff;
 }
