@@ -57,6 +57,12 @@ a:hover {
   cursor: pointer;
 }
 
+.menu {
+  opacity: 0;
+}
+
+/* This is from about section */
+
 .about-language .fa-solid {
   color: #acb7c3;
   font-size: 12px;
@@ -88,7 +94,7 @@ a:hover {
 }
 
 .title {
-  max-width: 600px;
+  width: 100%;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -317,6 +323,23 @@ a:hover {
   justify-content: center;
 }
 
+.skills .about-language .main {
+  width: 100%;
+}
+
+.skills .about-language .arrow::after{
+  content: '>';
+  float: right;
+  margin-right: 40px;
+}
+
+.skills .about-language .arrow-down::after{
+  content: '>';
+  float: right;
+  transform: rotate(90deg);
+  margin-right: 40px;
+}
+
 .about-language ul {
   padding: 5px;
 }
@@ -390,4 +413,176 @@ a:hover {
 .contact_form-control .btn:active {
   background-color: #2230d2;
   color: #fff;
+}
+
+@media (min-width: 768px) {
+
+  /* Navigation and Headline Section */
+
+  .container-padding-x {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+
+  .container {
+    max-width: 1520px;
+  }
+
+  .nav {
+    justify-content: space-around;
+  }
+  
+  .nav .fa-solid {
+    display: none;
+  }
+  
+  .menu {
+    text-align: right;
+    flex: 1;
+    opacity: 1;
+  }
+
+  .menu .link{
+    padding-left: 32px;
+    color: #344563;
+  }
+
+  .headline-container {
+    background-image: url(images/Header-bg.png);
+    padding-left: 220px;
+    border-bottom-left-radius: 0px;
+  }
+  
+  .title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  
+  .text {
+    max-width: 920px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  /* Project Section */
+  
+  .project {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 142px;
+  }
+  
+  .project .card {
+    flex-direction: row;
+    width: 100%;
+    max-width: 1156px;
+    border-radius: 24px;
+    padding: 24px;
+    margin: 142px 0 0 0;
+  }
+
+  .project .card-reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .card img {
+    max-width: 544px;
+    height: 448px;
+    overflow: hidden;
+  }
+  
+  .card .title {
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+  }
+  
+  .card .info {
+    font-size: 18px;
+    color: #6b778c;
+    font-weight: 400;
+  }
+  
+  .card .info .fa-solid {
+    font-size: 10px;
+  }
+
+  .card-info-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 24px 24px 46px;
+  }
+
+  /* About Section */
+
+  .about {
+    border-top-right-radius: 0px; /* ok */
+  }
+
+  .social-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 49px;
+  }
+  
+  .about-social-container {
+    width: 100%;
+  }
+  
+  .skills {
+    max-width: 100%;
+  }
+
+  .program-language ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 140px;
+  }
+
+  .about-language .language img {
+    margin: 0;
+  }
+
+  .about-language .language {
+    height: 110px;
+    width: 122px;
+    margin: 7px 0 7px 0;
+    padding: 7px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  /* Contact Section */
+
+  .contact .container {
+    background-image: url('images/contact_form_background_shapes.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 114px;
+  }
+
+  .contact-text {
+    max-width: 570px;
+    margin-bottom: 12px;
+    font-size: 20px;
+  }
+  
+  .contact_form {
+    padding-bottom: 0px;
+    align-items: center;
+  }
+  
+  .contact_form-control input,
+  .contact_form-control textarea {
+    min-width: 447px;
+  }
+  
+  .contact_form-control textarea {
+    min-width: 447px;
+  }
 }
