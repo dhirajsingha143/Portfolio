@@ -327,13 +327,13 @@ a:hover {
   width: 100%;
 }
 
-.skills .about-language .arrow::after{
+.skills .about-language .arrow::after {
   content: '>';
   float: right;
   margin-right: 40px;
 }
 
-.skills .about-language .arrow-down::after{
+.skills .about-language .arrow-down::after {
   content: '>';
   float: right;
   transform: rotate(90deg);
@@ -416,9 +416,7 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-
   /* Navigation and Headline Section */
-
   .container-padding-x {
     padding-left: 140px;
     padding-right: 140px;
@@ -431,18 +429,18 @@ a:hover {
   .nav {
     justify-content: space-around;
   }
-  
+
   .nav .fa-solid {
     display: none;
   }
-  
+
   .menu {
     text-align: right;
     flex: 1;
     opacity: 1;
   }
 
-  .menu .link{
+  .menu .link {
     padding-left: 32px;
     color: #344563;
   }
@@ -450,14 +448,14 @@ a:hover {
   .headline-container {
     background-image: url(images/Header-bg.png);
     padding-left: 220px;
-    border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0;
   }
-  
+
   .title {
     font-size: 48px;
     line-height: 60px;
   }
-  
+
   .text {
     max-width: 920px;
     font-size: 20px;
@@ -465,13 +463,13 @@ a:hover {
   }
 
   /* Project Section */
-  
+
   .project {
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 142px;
   }
-  
+
   .project .card {
     flex-direction: row;
     width: 100%;
@@ -484,25 +482,25 @@ a:hover {
   .project .card-reverse {
     flex-direction: row-reverse;
   }
-  
+
   .card img {
     max-width: 544px;
     height: 448px;
     overflow: hidden;
   }
-  
+
   .card .title {
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
   }
-  
+
   .card .info {
     font-size: 18px;
     color: #6b778c;
     font-weight: 400;
   }
-  
+
   .card .info .fa-solid {
     font-size: 10px;
   }
@@ -516,7 +514,7 @@ a:hover {
   /* About Section */
 
   .about {
-    border-top-right-radius: 0px; /* ok */
+    border-top-right-radius: 0;
   }
 
   .social-container {
@@ -525,11 +523,11 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     gap: 49px;
   }
-  
+
   .about-social-container {
     width: 100%;
   }
-  
+
   .skills {
     max-width: 100%;
   }
@@ -571,17 +569,17 @@ a:hover {
     margin-bottom: 12px;
     font-size: 20px;
   }
-  
+
   .contact_form {
-    padding-bottom: 0px;
+    padding-bottom: 0;
     align-items: center;
   }
-  
+
   .contact_form-control input,
   .contact_form-control textarea {
     min-width: 447px;
   }
-  
+
   .contact_form-control textarea {
     min-width: 447px;
   }
