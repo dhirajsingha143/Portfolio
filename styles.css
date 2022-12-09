@@ -164,6 +164,15 @@ a:hover {
   background-color: #e5e5e5;
 }
 
+.card {
+  transition: scale 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+
+.card:hover {
+  scale: 1.025;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
 .project .card {
   display: flex;
   flex-direction: column;
