@@ -29,7 +29,7 @@
 
 # 📖 Portfolio Setup <a name="about-project"></a>
 
-In this project, I have set up my personal portfolio site for mobile devices.
+In this project, I have set up my personal portfolio site.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,6 +52,7 @@ In this project, I have set up my personal portfolio site for mobile devices.
 - **Used GitHub flow**
 - **Figma design to UI development**
 - **Used Flexbox to place elements**
+- **Compatible in mobile, tab and desktop**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,7 +89,7 @@ To run the project, execute the following command:
 <img src="images/Portfolio.png" alt="logo" width="140"  height="auto" />
 <br/>
 
-- [Visit here](https://638cbd730f57c3317ab0a615--famous-frangipane-1fe83c.netlify.app/)
+- [Visit here]for mobile version(https://dev-dhiraj-portfolio.netlify.app/)
 
 <!-- AUTHORS -->
 
@@ -99,6 +100,8 @@ To run the project, execute the following command:
 - GitHub: [@githubhandle](https://github.com/dhirajsingha143)
 - Twitter: [@twitterhandle](https://twitter.com/DhirajS89134)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dhiraj-singha-b6871717a/)
+
+-Collaborator
 
 👤 **Miles Mosweu**
 - GitHub: [@githubhandle](https://github.com/Timbar09)
@@ -112,6 +115,8 @@ To run the project, execute the following command:
 ### 🔮 Future Features <a name="future-features"></a>
 
 - Desktop version of Portfolio
+- Animation features
+- Functionality using JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
