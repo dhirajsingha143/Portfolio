@@ -265,7 +265,10 @@ a:hover {
   background-color: white;
   height: 50px;
   width: 110px;
-  transition: background-color 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out,
+  transition:
+    background-color 200ms ease-in-out,
+    border 200ms ease-in-out,
+    color 200ms ease-in-out,
     box-shadow 200ms ease-in-out;
 }
 
