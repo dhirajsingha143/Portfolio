@@ -418,26 +418,31 @@ a:hover {
 @media (min-width: 768px) {
   /* Navigation and Headline Section */
   .container-padding-x {
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 142px;
+    padding-right: 142px;
   }
 
   .container {
-    max-width: 1520px;
+    max-width: 4000px;
   }
 
   .nav {
-    justify-content: space-around;
+    justify-content: flex-start;
   }
 
   .nav .fa-solid {
     display: none;
   }
 
+  .logo {
+    padding-left: 13px;
+  }
+
   .menu {
     text-align: right;
     flex: 1;
     opacity: 1;
+    padding-right: 13px;
   }
 
   .menu .link {
@@ -447,7 +452,7 @@ a:hover {
 
   .headline-container {
     background-image: url(images/Header-bg.png);
-    padding-left: 220px;
+    padding-left: 260px;
     border-bottom-left-radius: 0;
   }
 
