@@ -89,7 +89,7 @@ To run the project, execute the following command:
 <img src="images/Portfolio.png" alt="logo" width="140"  height="auto" />
 <br/>
 
-- [Visit here]for mobile version(https://famous-frangipane-1fe83c.netlify.app/)
+- [Visit here]for mobile version(https://dev-dhiraj-portfolio.netlify.app/)
 
 <!-- AUTHORS -->
 
