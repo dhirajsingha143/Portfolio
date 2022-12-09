@@ -16,6 +16,20 @@ body {
   font-size: 15px;
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 a {
   text-decoration: none;
   color: #7f8cff;
@@ -99,6 +113,7 @@ a:hover {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  animation: appear 2000ms ease-in-out 1 forwards;
 }
 
 .text {
@@ -107,6 +122,7 @@ a:hover {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  animation: appear 3000ms ease-in-out 1 forwards;
 }
 
 .connect {
@@ -114,6 +130,7 @@ a:hover {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 40px;
+  animation: appear 4000ms ease-in-out 1 forwards;
 }
 
 .social {
@@ -122,6 +139,7 @@ a:hover {
   gap: 20px;
   padding: 0;
   list-style: none;
+  animation: appear 5000ms ease-in-out 1 forwards;
 }
 
 .about-language li {
@@ -144,6 +162,15 @@ a:hover {
   margin-top: 26px;
   margin-bottom: 114px;
   background-color: #e5e5e5;
+}
+
+.card {
+  transition: scale 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+
+.card:hover {
+  scale: 1.025;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
 }
 
 .project .card {
