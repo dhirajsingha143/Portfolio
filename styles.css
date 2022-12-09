@@ -130,6 +130,7 @@ a:hover {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 40px;
+  animation: appear 4000ms ease-in-out 1 forwards;
 }
 
 .social {
@@ -138,6 +139,7 @@ a:hover {
   gap: 20px;
   padding: 0;
   list-style: none;
+  animation: appear 5000ms ease-in-out 1 forwards;
 }
 
 .about-language li {
