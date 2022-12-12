@@ -48,10 +48,10 @@ In this project, I have set up my personal portfolio site.
 
 ### Key Features <a name="key-features"></a>
 
-- **No linter Errors**
-- **Used GitHub flow**
-- **Figma design to UI development**
-- **Used Flexbox to place elements**
+- **An introduction section**
+- **Project works**
+- **About secton**
+- **Contact Me secton**
 - **Compatible in mobile, tab and desktop**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -89,7 +89,7 @@ To run the project, execute the following command:
 <img src="images/Portfolio.png" alt="logo" width="140"  height="auto" />
 <br/>
 
-- [Visit here](https://dev-dhiraj-portfolio.netlify.app/) for demo verson.
+- [Visit here](https://dhirajsingha143.github.io/Portfolio/) for demo verson.
 
 <!-- AUTHORS -->
 
