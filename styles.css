@@ -32,11 +32,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #7f8cff;
+  color: #2b3dde;
 }
 
 a:hover {
-  color: #1e31dd;
+  color: #6671d3;
 }
 
 .container-padding-x {
@@ -204,7 +204,7 @@ a:hover {
   gap: 12px;
   padding: 0 0 12px 0;
   margin: 0;
-  color: #7a869a;
+  color: #4b5568;
 }
 
 .card .info li:first-child {
@@ -251,8 +251,8 @@ a:hover {
 .card .program .language {
   padding: 4px 12px 4px 12px;
   border-radius: 8px;
-  color: #6070ff;
-  background-color: #ebebff;
+  color: #4152ec;
+  background-color: #e3e3f2;
 }
 
 .card .btn {
@@ -290,7 +290,7 @@ a:hover {
   font-family: inherit;
   font-weight: 500;
   font-size: 17px;
-  color: #6070ff;
+  color: #5162f5;
   letter-spacing: 0.03em;
   border: 0;
   border-radius: 8px;
@@ -379,7 +379,7 @@ a:hover {
   padding-top: 103px;
   color: #fff;
   text-align: center;
-  background-color: #6070ff;
+  background-color: #4b5bf1;
   background-image: url('images/contact-form-shapes-mobile.svg');
   background-repeat: no-repeat;
   background-size: contain;
@@ -529,7 +529,6 @@ a:hover {
 
   .card .info {
     font-size: 18px;
-    color: #6b778c;
     font-weight: 400;
   }
 
