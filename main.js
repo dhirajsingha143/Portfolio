@@ -1,6 +1,7 @@
 const divMenu = document.querySelector('.mobile-menu');
 const crossButton = document.querySelector('.cross-button');
 const hamburgerButton = document.querySelector('.fa-bars');
+const navLink = document.querySelector(".nav-link");
 
 const openMenu = () => {
     divMenu.classList.toggle('display');
@@ -14,6 +15,6 @@ hamburgerButton.addEventListener('click', () => {
     openMenu();
 });
 
-$('.nav-menu li a').on('click', () => {
-    $('#cross-button').click();
+navLink.addEventListener('click', () => {
+    openMenu();
 });
