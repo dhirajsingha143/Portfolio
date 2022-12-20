@@ -1,20 +1,20 @@
 const divMenu = document.querySelector('.mobile-menu');
 const crossButton = document.querySelector('.cross-button');
 const hamburgerButton = document.querySelector('.fa-bars');
-const navLink = document.querySelector(".nav-link");
+const navLink = document.querySelector('.nav-link');
 
 const openMenu = () => {
-    divMenu.classList.toggle('display');
+  divMenu.classList.toggle('display');
 };
 
 crossButton.addEventListener('click', () => {
-    openMenu();
+  openMenu();
 });
 
 hamburgerButton.addEventListener('click', () => {
-    openMenu();
+  openMenu();
 });
 
 navLink.addEventListener('click', () => {
-    openMenu();
+  openMenu();
 });
