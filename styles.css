@@ -154,6 +154,7 @@ a:hover {
 .social li:hover {
   transform: rotate(45deg);
 }
+
 /* -----------Project-card-section --------- */
 .project {
   display: flex;
@@ -255,6 +256,98 @@ a:hover {
   background-color: #e3e3f2;
 }
 
+.card .btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border: 1px solid #396df2;
+  color: #396df2;
+  border-radius: 8px;
+  background-color: white;
+  height: 50px;
+  width: 110px;
+  transition:
+    background-color 200ms ease-in-out,
+    border 200ms ease-in-out,
+    color 200ms ease-in-out,
+    box-shadow 200ms ease-in-out;
+}
+
+.about .btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  width: 150px;
+  height: 48px;
+  border: 1px solid #396df2;
+  color: #396df2;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.contact_form-control .btn {
+  margin-top: 22px;
+  padding: 15px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 17px;
+  color: #5162f5;
+  letter-spacing: 0.03em;
+  border: 0;
+  border-radius: 8px;
+  background-color: #fff;
+  transition:
+    opacity 200ms ease-in-out,
+    box-shadow 200ms ease-in-out,
+    color 200ms ease-in-out;
+}
+
+.card .btn:hover {
+  color: #fff;
+  border: 1px solid #6070ff;
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.card .btn:active {
+  background-color: #2230d2;
+}
+
+.about .btn:hover {
+  background-color: #dfeefa;
+  transform: scale(1.1);
+}
+
+.about-language .language img {
+  height: 48px;
+  width: 48px;
+  margin-left: 24px;
+}
+
+.about-language .fa-solid:hover {
+  color: #6070ff;
+  font-size: 16px;
+}
+
+.contact_form-control .btn:hover {
+  opacity: 0.8;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.contact_form-control .btn:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.mobile-menu .fa-x {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  color: #fff5e1;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 /* Popup-window for project-card in mobile------------ */
 
 .popup-container {
@@ -283,8 +376,7 @@ a:hover {
   max-height: 718px;
   border-radius: 16px;
   padding: 18px 16px 18px 16px;
-  background-color: #ffffff;
-  border-radius: 10px;
+  background-color: #fff;
 }
 
 .popup-container .popupimg-container .project-title {
@@ -369,7 +461,7 @@ a:hover {
 .popup-container .popupimg-container .btn-container .fa-x {
   display: flex;
   align-items: flex-start;
-  color: #000000;
+  color: #000;
   font-size: 20px;
   cursor: pointer;
 }
@@ -396,8 +488,11 @@ a:hover {
   background-color: white;
   height: 50px;
   width: 140px;
-  transition: background-color 200ms ease-in-out, border 200ms ease-in-out,
-    color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+  transition:
+    background-color 200ms ease-in-out,
+    border 200ms ease-in-out,
+    color 200ms ease-in-out,
+    box-shadow 200ms ease-in-out;
 }
 
 .popup-container .popupimg-container .detail-footer .btn:hover {
@@ -410,61 +505,8 @@ a:hover {
 .popup-container .popupimg-container .detail-footer .btn:active {
   background-color: #2230d2;
 }
+
 /* ---------------------End project work section--- */
-
-.card .btn {
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  border: 1px solid #396df2;
-  color: #396df2;
-  border-radius: 8px;
-  background-color: white;
-  height: 50px;
-  width: 110px;
-  transition:
-    background-color 200ms ease-in-out,
-    border 200ms ease-in-out,
-    color 200ms ease-in-out,
-    box-shadow 200ms ease-in-out;
-}
-
-.about .btn {
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  width: 150px;
-  height: 48px;
-  border: 1px solid #396df2;
-  color: #396df2;
-  border-radius: 8px;
-  background-color: white;
-}
-
-.contact_form-control .btn {
-  margin-top: 22px;
-  padding: 15px;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 17px;
-  color: #5162f5;
-  letter-spacing: 0.03em;
-  border: 0;
-  border-radius: 8px;
-  background-color: #fff;
-  transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out, color 200ms ease-in-out;
-}
-
-.card .btn:hover {
-  color: #fff;
-  border: 1px solid #6070ff;
-  background-color: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-}
-
-.card .btn:active {
-  background-color: #2230d2;
-}
 
 .about {
   display: flex;
@@ -478,26 +520,10 @@ a:hover {
   padding-bottom: 114px;
 }
 
-.about .btn:hover {
-  background-color: #dfeefa;
-  transform: scale(1.1);
-}
-
 .about-language {
   padding: 60px 0 0 0;
   background-color: white;
   list-style: none;
-}
-
-.about-language .language img {
-  height: 48px;
-  width: 48px;
-  margin-left: 24px;
-}
-
-.about-language .fa-solid:hover {
-  color: #6070ff;
-  font-size: 16px;
 }
 
 .about-language hr {
@@ -589,16 +615,6 @@ a:hover {
   max-height: 170px;
 }
 
-.contact_form-control .btn:hover {
-  opacity: 0.8;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-}
-
-.contact_form-control .btn:active {
-  background-color: #2230d2;
-  color: #fff;
-}
-
 /* MOBILE SECTION */
 
 .mobile-menu {
@@ -616,15 +632,6 @@ a:hover {
 
 .mobile-menu.display {
   display: flex;
-}
-
-.mobile-menu .fa-x {
-  position: absolute;
-  top: 23px;
-  right: 23px;
-  color: #fff5e1;
-  font-size: 20px;
-  cursor: pointer;
 }
 
 .mobile-menu ul a {
@@ -649,6 +656,32 @@ a:hover {
 /* Deskto Version  */
 
 @media (min-width: 768px) {
+  .nav .fa-solid {
+    display: none;
+  }
+
+  .card img {
+    max-width: 544px;
+    min-width: 250px;
+    height: 448px;
+    overflow: hidden;
+  }
+
+  .card .info .fa-solid {
+    font-size: 10px;
+  }
+
+  .about-language .language {
+    height: 110px;
+    width: 122px;
+    margin: 7px 0 7px 0;
+    padding: 7px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
   /* Popup-window for project-card in mobile------------ */
 
   .popup-container {
@@ -675,8 +708,7 @@ a:hover {
     border-radius: 16px;
     top: 77px;
     padding: 24px 24px 24px 24px;
-    background-color: #ffffff;
-    border-radius: 10px;
+    background-color: #fff;
   }
 
   .popup-container .popupimg-container .project-title {
@@ -767,7 +799,7 @@ a:hover {
   .popup-container .popupimg-container .btn-container .fa-x {
     display: flex;
     align-items: flex-start;
-    color: #000000;
+    color: #000;
     font-size: 20px;
     cursor: pointer;
   }
@@ -794,8 +826,11 @@ a:hover {
     background-color: white;
     height: 50px;
     width: 140px;
-    transition: background-color 200ms ease-in-out, border 200ms ease-in-out,
-      color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    transition:
+      background-color 200ms ease-in-out,
+      border 200ms ease-in-out,
+      color 200ms ease-in-out,
+      box-shadow 200ms ease-in-out;
   }
 
   .popup-container .popupimg-container .detail-footer .btn:hover {
@@ -821,10 +856,6 @@ a:hover {
 
   .nav {
     justify-content: flex-start;
-  }
-
-  .nav .fa-solid {
-    display: none;
   }
 
   .logo {
@@ -881,13 +912,6 @@ a:hover {
     flex-direction: row-reverse;
   }
 
-  .card img {
-    max-width: 544px;
-    min-width: 250px;
-    height: 448px;
-    overflow: hidden;
-  }
-
   .card .title {
     font-size: 40px;
     line-height: 52px;
@@ -897,10 +921,6 @@ a:hover {
   .card .info {
     font-size: 18px;
     font-weight: 400;
-  }
-
-  .card .info .fa-solid {
-    font-size: 10px;
   }
 
   .card-info-container {
@@ -935,21 +955,6 @@ a:hover {
     flex-direction: row;
     gap: 10px;
     height: 140px;
-  }
-
-  .about-language .language img {
-    margin: 0;
-  }
-
-  .about-language .language {
-    height: 110px;
-    width: 122px;
-    margin: 7px 0 7px 0;
-    padding: 7px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 16px;
   }
 
   /* Contact Section */
