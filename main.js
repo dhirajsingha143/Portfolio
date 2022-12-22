@@ -288,3 +288,30 @@ listProject.forEach((project) => {
   work.append(portfolioCard);
   index += 1;
 });
+
+/* Form Validation */
+const form = document.getElementById('form');
+const error = document.getElementById('error');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const { email } = form.elements;
+  if (email.validity.typeMismatch
+    || email.value.toLowerCase() !== email.value
+    || !email.validity.valid) {
+    error.textContent = 'Invalid email. Please ensure you have the correct email address. Thank you!';
+  } else {
+    form.submit();
+  }
+});
+
+window.addEventListener('beforeunload', () => {
+  const savedData = { name: form.name.value, email: form.email.value, message: form.message.value };
+  window.localStorage.setItem('formData', JSON.stringify(savedData));
+});
+
+window.addEventListener('load', () => {
+  const savedData = JSON.parse(window.localStorage.getItem('formData'));
+  form.name.value = savedData.name;
+  form.email.value = savedData.email;
+  form.message.value = savedData.message;
+});
