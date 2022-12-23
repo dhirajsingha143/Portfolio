@@ -135,7 +135,7 @@
         If you have an application you are interested in developing, a feature that you need built or a project that
         needs coding. I’d love to help with it
       </p>
-      <form class="contact_form" action="https://formspree.io/f/xrgdnqdw" method="POST">
+      <form class="contact_form" id="contact-form" action="https://formspree.io/f/xrgdnqdw" method="POST">
         <div class="contact_form-control">
           <label for="name">Full Name</label>
           <input name="user_name" id="name" type="text" minlength="1" maxlength="30" placeholder="Dhiraj Singha"
@@ -153,6 +153,7 @@
             rows="10" cols="30" required></textarea>
         </div>
 
+        <span id="error" class="error" aria-live="polite"></span>
         <div class="contact_form-control">
           <button class="btn" type="submit">Get in touch</button>
         </div>

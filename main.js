@@ -290,7 +290,7 @@ listProject.forEach((project) => {
 });
 
 /* Form Validation */
-const form = document.getElementById('form');
+const form = document.getElementById('contact-form');
 const error = document.getElementById('error');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -302,16 +302,4 @@ form.addEventListener('submit', (event) => {
   } else {
     form.submit();
   }
-});
-
-window.addEventListener('beforeunload', () => {
-  const savedData = { name: form.name.value, email: form.email.value, message: form.message.value };
-  window.localStorage.setItem('formData', JSON.stringify(savedData));
-});
-
-window.addEventListener('load', () => {
-  const savedData = JSON.parse(window.localStorage.getItem('formData'));
-  form.name.value = savedData.name;
-  form.email.value = savedData.email;
-  form.message.value = savedData.message;
 });
