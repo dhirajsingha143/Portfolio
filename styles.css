@@ -615,6 +615,12 @@ a:hover {
   max-height: 170px;
 }
 
+.error {
+  color: rgb(245, 121, 121);
+  font-weight: bold;
+  padding-top: 15px;
+}
+
 /* MOBILE SECTION */
 
 .mobile-menu {
