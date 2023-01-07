@@ -164,7 +164,7 @@ function showDetails(project) {
 const defaultDescription = 'A daily section of privately personalized reads; no accounts or sign-ups required.';
 const listProject = [
   {
-    name: 'Tonic', description: defaultDescription, image: 'images/Project-1.png', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
+    name: 'ITIKD International Conference', description: 'This is a Conference Website, regarding ITIKD (IT Inovation and Knowledge Discovery) 2023. This site showcase the conference details, its past accomplishments and key guest, also sponsoring partners.', image: 'images/ITIKD.png', details: ['Conference', 'Front End Dev', '2023'], technologies: ['html', 'css', 'javaScript'], link: { live: 'https://sparkly-puffpuff-9addc3.netlify.app/index.html', source: '' },
   },
   {
     name: 'Multi-Post Stories', description: defaultDescription, image: 'images/Project-2.png', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
