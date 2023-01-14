@@ -123,8 +123,9 @@ function showDetails(project) {
   buttonLive.type = 'button';
   //  button.btn>type="button"
 
-  const txtBtnLive = document.createElement('p');
+  const txtBtnLive = document.createElement('a');
   txtBtnLive.textContent = 'See Live';
+  txtBtnLive.href = project.link.live;
 
   const imgBtnLive = document.createElement('img');
   imgBtnLive.src = 'images/live-Icon.svg';
@@ -136,8 +137,9 @@ function showDetails(project) {
   buttonSource.classList.add('btn');
   buttonSource.type = 'button';
 
-  const txtBtnSource = document.createElement('p');
+  const txtBtnSource = document.createElement('a');
   txtBtnSource.textContent = 'See Source';
+  txtBtnSource.href = project.link.source;
 
   const imgBtnSource = document.createElement('img');
   imgBtnSource.src = 'images/purple-github in button.svg';
@@ -161,19 +163,19 @@ function showDetails(project) {
 }
 
 /* Update list of project dynamicaly */
-const defaultDescription = 'A daily section of privately personalized reads; no accounts or sign-ups required.';
+const defaultDescription = 'A daily section of privately personalized reads; no accounts or sign-ups required. Future projects will be added here.';
 const listProject = [
   {
-    name: 'ITIKD International Conference', description: 'This is a Conference Website, regarding ITIKD (IT Inovation and Knowledge Discovery) 2023. This site showcase the conference details, its past accomplishments and key guest, also sponsoring partners.', image: 'images/ITIKD.png', details: ['Conference', 'Front End Dev', '2023'], technologies: ['html', 'css', 'javaScript'], link: { live: 'https://sparkly-puffpuff-9addc3.netlify.app/index.html', source: '' },
+    name: 'ITIKD International Conference', description: 'This is a Conference Website, regarding ITIKD (IT Inovation and Knowledge Discovery) 2023. This site showcase the conference details, its past accomplishments and key guest, also sponsoring partners.', image: 'images/ITIKD.png', details: ['Conference', 'Front End Dev', '2023'], technologies: ['html', 'css', 'javaScript'], link: { live: 'https://sparkly-puffpuff-9addc3.netlify.app/index.html', source: 'https://github.com/dhirajsingha143/ITIKD-Conference-2023' },
   },
   {
-    name: 'Multi-Post Stories', description: defaultDescription, image: 'images/Project-2.png', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
+    name: 'Sample Teplate', description: defaultDescription, image: 'images/Project-2.png', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
   },
   {
-    name: 'Facebook 360', description: defaultDescription, image: 'images/Project-3.png', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
+    name: 'Sample Teplate', description: defaultDescription, image: 'images/Project-3.png', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
   },
   {
-    name: 'Uber Navigation', description: defaultDescription, image: 'images/Project-4.png', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
+    name: 'Sample Teplate', description: defaultDescription, image: 'images/Project-4.png', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
   },
 ];
 
