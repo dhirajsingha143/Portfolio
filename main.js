@@ -169,7 +169,7 @@ const listProject = [
     name: 'ITIKD International Conference', description: 'This is a Conference Website, regarding ITIKD (IT Inovation and Knowledge Discovery) 2023. This site showcase the conference details, its past accomplishments and key guest, also sponsoring partners.', image: 'images/ITIKD.png', details: ['Conference', 'Front End Dev', '2023'], technologies: ['html', 'css', 'javaScript'], link: { live: 'https://sparkly-puffpuff-9addc3.netlify.app/index.html', source: 'https://github.com/dhirajsingha143/ITIKD-Conference-2023' },
   },
   {
-    name: 'Sample Teplate', description: defaultDescription, image: 'images/Project-2.png', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
+    name: 'Awesome Book', description: '"Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list.', image: 'images/Awesomebook.png', details: ['Medium-fidelity', 'Back End Dev', '2023'], technologies: ['html', 'css', 'javaScript'], link: { live: 'https://dhirajsingha143.github.io/Awesome-Books_ES6/', source: 'https://github.com/dhirajsingha143/Awesome-Books_ES6' },
   },
   {
     name: 'Sample Teplate', description: defaultDescription, image: 'images/Project-3.png', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
